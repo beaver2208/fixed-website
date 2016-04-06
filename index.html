@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Final task</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!--[if gte IE 9]>
+		<link rel="stylesheet" href="css/style-ie.css">
+  	<![endif]-->
+</head>
+
+<body>
+    <div class="main-wrapper clearfix">
+        <!-- Header -->
+        <header class="main-header clearfix">
+            <a href="#" class="main-logo">
+                <img src="img/header-logo.png" alt="Natinal Geographic" width="162" height="48">
+            </a>
+            <form action="#" class="clearfix">
+                <div class="search sprites">
+                    <input type="search" placeholder="Search">
+                    <label for="all-categories">All Categories</label>
+                    <input id="all-categories" type="checkbox" name="all-categories">
+                    <div class="all-categories-actives">
+                        <div class="checkbox">
+                            <input id="all-cat-checkbox" type="checkbox" name="check">
+                            <label for="all-cat-checkbox">Select all categories to search</label>
+                        </div>
+                        <ul>
+                            <li><a href="#"><span class="check-uncheck"></span>Videos</a></li>
+                            <li><a href="#"><span class="check-uncheck"></span>Photography</a></li>
+                            <li><a href="#"><span class="check-uncheck"></span>Animals</a></li>
+                            <li><a href="#"><span class="check-uncheck"></span>Games</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#"><span class="check-uncheck"></span>Environment</a></li>
+                            <li><a href="#"><span class="check-uncheck"></span>Travel</a></li>
+                            <li><a href="#"><span class="check-uncheck"></span>Kids</a></li>
+                            <li><a href="#"><span class="check-uncheck"></span>Adventure</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#"><span class="check-uncheck"></span>Television</a></li>
+                            <li><a href="#"><span class="check-uncheck"></span>Apps</a></li>
+                            <li><a href="#"><span class="check-uncheck"></span>Events</a></li>
+                            <li><a href="#"><span class="check-uncheck"></span>Trips</a></li>
+                        </ul>
+                    </div>
+                    <a href="#" class="search-go sprites"></a>
+                </div>
+                <div class="login">
+                    <a href="#" class="sprites">Sign Up</a>
+                    <a href="#" class="sprites">Login</a>
+                </div>
+            </form>
+        </header>
+        <!-- Main menu -->
+        <nav class="main-menu clearfix">
+            <ul class="main-text-menu">
+                <li><a href="#" class="home">Home</a></li>
+                <li><a href="#" class="photo">Photography</a></li>
+                <li><a href="#" class="video">Video</a></li>
+                <li><a href="#" class="environment">Environment</a></li>
+                <li><a href="#" class="travel">Travel</a></li>
+                <li><a href="#" class="adventure">Adventure</a></li>
+                <li><a href="#" class="television">Television</a></li>
+                <li><a href="#" class="kids">Kids</a></li>
+            </ul>
+        </nav>
+        <div class="left-right-column-wrapper clearfix">
+            <div class="left-content clearfix">
+                <div class="sub-filter-slider-wrapper clearfix">
+                    <!-- Sub menu -->
+                    <section class="sub-menu clearfix">
+                        <ul>
+                            <li><a href="#" class="news">Daily News</a></li>
+                            <li><a href="#" class="magazine">Magazine</a></li>
+                            <li><a href="#" class="maps">Maps</a></li>
+                            <li><a href="#" class="science">Science</a></li>
+                            <li><a href="#" class="education">Education</a></li>
+                            <li><a href="#" class="games">Games</a></li>
+                            <li><a href="#" class="events">Events</a></li>
+                            <li><a href="#" class="blogs">Blogs</a></li>
+                            <li><a href="#" class="explorers">Explorers</a></li>
+                            <li><a href="#" class="trips">Trips</a></li>
+                        </ul>
+                    </section>
+                    <!-- Filter -->
+                    <section class="filter clearfix">
+                        <ul class="clearfix">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Animals</a></li>
+                            <li><a href="#">Ancient</a></li>
+                            <li><a href="#">Energy</a></li>
+                            <li><a href="#">Environment</a></li>
+                            <li><a href="#">Travel</a></li>
+                        </ul>
+                    </section>
+                    <!-- Slider -->
+                    <section class="slider clearfix">
+                        <img src="img/slider-pic.jpg" alt="Slider image" width="504" height="226">
+                        <div class="pagination">
+                            <a href="#">1</a>
+                            <a href="#">2</a>
+                            <a href="#">3</a>
+                        </div>
+                        <div class="slider-title clearfix">
+                            <dl>
+                                <dt>Lion Cubs Playing</dt>
+                                <dd>African lion cubs play in the grass in the Okavango Delta.</dd>
+                            </dl>
+                            <a href="#" class="slider-pause sprites"></a>
+                        </div>
+                    </section>
+                    <div class="title-set">
+                        <a href="#" class="latest-news sprites">Latest News</a>
+                        <label for="title-set">Most Recent</label>
+                        <input id="title-set" type="checkbox" name="title-set-list">
+                        <ul class="title-set-list">
+                            <li><a href="#">Most Viewd</a></li>
+                            <li><a href="#">Most Recent</a></li>
+                            <li><a href="#">Most Discussed</a></li>
+                            <li><a href="#">Most Rated</a></li>
+                        </ul>
+                        <div class="show clearfix">
+                            <a href="#" class="list sprites"></a>
+                            <a href="#" class="grid sprites"></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- News Articles -->
+                <div class="news-articles clearfix">
+                    <article class="n-article clearfix">
+                        <div class="n-article-image-wrapp clearfix">
+                            <figure>
+                                <img src="img/african-lion.jpg" width="319" height="100" alt="African Lion Cub">
+                                <figcaption>
+                                    <div class="article-title">
+                                        <h6><a href="#">African Lion Cub</a></h6>
+                                        <span>3 hours ago</span>
+                                    </div>
+                                    <div class="rating-wrapper clearfix">
+                                        <form action="#" class="rating">
+                                            <input type="radio" id="lion-star5" name="rating" value="5" />
+                                            <label for="lion-star5"></label>
+                                            <input type="radio" id="lion-star4" name="rating" value="4" />
+                                            <label for="lion-star4"></label>
+                                            <input type="radio" id="lion-star3" name="rating" value="3" />
+                                            <label for="lion-star3"></label>
+                                            <input type="radio" id="lion-star2" name="rating" value="2" />
+                                            <label for="lion-star2"></label>
+                                            <input type="radio" id="lion-star1" name="rating" value="1" />
+                                            <label for="lion-star1"></label>
+                                        </form>
+                                        <span class="votes">1,291 votes</span>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="n-article-title">
+                            <p>An African lion cub rests in the tall grasses of Botswana’s Okavango Delta. Once ranging across the African continent and into Syria, Israel, Iraq, Pakistan, Iran, and even northwest India, lions have declined to as few as 20,000 animals from about 450,000 just 50 years ago.</p>
+                        </div>
+                    </article>
+                    <article class="n-article n-article-right clearfix">
+                        <div class="n-article-image-wrapp clearfix">
+                            <figure>
+                                <img src="img/mount-gorila.jpg" width="319" height="100" alt="Young Mountain Gorilla">
+                                <figcaption>
+                                    <div class="article-title">
+                                        <h6><a href="#">Young Mountain Gorilla</a></h6>
+                                        <span>5 hours ago</span>
+                                    </div>
+                                    <div class="rating-wrapper clearfix">
+                                        <form action="#" class="rating">
+                                            <input type="radio" id="gor-star5" name="rating" value="5" />
+                                            <label for="gor-star5"></label>
+                                            <input type="radio" id="gor-star4" name="rating" value="4" />
+                                            <label for="gor-star4"></label>
+                                            <input type="radio" id="gor-star3" name="rating" value="3" />
+                                            <label for="gor-star3"></label>
+                                            <input type="radio" id="gor-star2" name="rating" value="2" />
+                                            <label for="gor-star2"></label>
+                                            <input type="radio" id="gor-star1" name="rating" value="1" />
+                                            <label for="gor-star1"></label>
+                                        </form>
+                                        <span class="votes">972 votes</span>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="n-article-title">
+                            <p>This young mountain gorilla, named Kwibesha, is a member of the Kabrizi family of gorillas in Virunga National Park. Wildlife rangers in the park have had to suspend their monitoring of the gorillas because rebel militias and the Congolese army occupy much of their habitat.</p>
+                        </div>
+                    </article>
+                    <article class="n-article clearfix">
+                        <div class="n-article-image-wrapp clearfix">
+                            <figure>
+                                <img src="img/king-peng.jpg" width="319" height="100" alt="King Penguins">
+                                <figcaption>
+                                    <div class="article-title">
+                                        <h6><a href="#">King Penguins</a></h6>
+                                        <span>8 hours ago</span>
+                                    </div>
+                                    <div class="rating-wrapper clearfix">
+                                        <form action="#" class="rating">
+                                            <input type="radio" id="peng-star5" name="rating" value="5" />
+                                            <label for="peng-star5"></label>
+                                            <input type="radio" id="peng-star4" name="rating" value="4" />
+                                            <label for="peng-star4"></label>
+                                            <input type="radio" id="peng-star3" name="rating" value="3" />
+                                            <label for="peng-star3"></label>
+                                            <input type="radio" id="peng-star2" name="rating" value="2" />
+                                            <label for="peng-star2"></label>
+                                            <input type="radio" id="peng-star1" name="rating" value="1" />
+                                            <label for="peng-star1"></label>
+                                        </form>
+                                        <span class="votes">681 votes</span>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="n-article-title">
+                            <p>King penguins live on the more temperate islands north of Antarctica. Although their habitat is warmer than that of emperor penguins, king penguins have four layers of feathers and huddle together for warmth.</p>
+                        </div>
+                    </article>
+                    <article class="n-article n-article-right clearfix">
+                        <div class="n-article-image-wrapp clearfix">
+                            <figure>
+                                <img src="img/shark.jpg" width="319" height="100" alt="Great White Shark">
+                                <figcaption>
+                                    <div class="article-title">
+                                        <h6><a href="#">Great White Shark</a></h6>
+                                        <span>1 day ago</span>
+                                    </div>
+                                    <div class="rating-wrapper clearfix">
+                                        <form action="#" class="rating">
+                                            <input type="radio" id="shark-star5" name="rating" value="5" />
+                                            <label for="shark-star5"></label>
+                                            <input type="radio" id="shark-star4" name="rating" value="4" />
+                                            <label for="shark-star4"></label>
+                                            <input type="radio" id="shark-star3" name="rating" value="3" />
+                                            <label for="shark-star3"></label>
+                                            <input type="radio" id="shark-star2" name="rating" value="2" />
+                                            <label for="shark-star2"></label>
+                                            <input type="radio" id="shark-star1" name="rating" value="1" />
+                                            <label for="shark-star1"></label>
+                                        </form>
+                                        <span class="votes">2,827 votes</span>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="n-article-title">
+                            <p>The legendary great white shark is far more fearsome in our imaginations than in reality. As scientific research on these elusive predators increases, their image as mindless killing machines is beginning to fade.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <!-- Right bar -->
+            <aside class="right-bar clearfix">
+                <section class="pop-news">
+                    <a href="#" class="pop-news-link sprites">Most Popular News</a>
+                    <article class="clearfix">
+                        <figure>
+                            <img src="img/pop-news-one.jpg" width="214" height="100" alt="The Bite That Heals">
+                            <figcaption>
+                                <div class="article-title">
+                                    <h6><a href="#">The Bite That Heals</a></h6>
+                                    <span>6 days ago</span>
+                                </div>
+                                <div class="rating-wrapper clearfix">
+                                    <form action="#" class="rating">
+                                        <input type="radio" id="bite-star5" name="rating" value="5" />
+                                        <label for="bite-star5"></label>
+                                        <input type="radio" id="bite-star4" name="rating" value="4" />
+                                        <label for="bite-star4"></label>
+                                        <input type="radio" id="bite-star3" name="rating" value="3" />
+                                        <label for="bite-star3"></label>
+                                        <input type="radio" id="bite-star2" name="rating" value="2" />
+                                        <label for="bite-star2"></label>
+                                        <input type="radio" id="bite-star1" name="rating" value="1" />
+                                        <label for="bite-star1"></label>
+                                    </form>
+                                    <span class="votes">71,482 votes</span>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </article>
+                    <article class="clearfix">
+                        <figure>
+                            <img src="img/pop-news-two.jpg" width="214" height="100" alt="Stranger Than Nature">
+                            <figcaption>
+                                <div class="article-title">
+                                    <h6><a href="#">Stranger Than Nature</a></h6>
+                                    <span>8 days ago</span>
+                                </div>
+                                <div class="rating-wrapper clearfix">
+                                    <form action="#" class="rating">
+                                        <input type="radio" id="stranger-star5" name="rating" value="5" />
+                                        <label for="stranger-star5"></label>
+                                        <input type="radio" id="stranger-star4" name="rating" value="4" />
+                                        <label for="stranger-star4"></label>
+                                        <input type="radio" id="stranger-star3" name="rating" value="3" />
+                                        <label for="stranger-star3"></label>
+                                        <input type="radio" id="stranger-star2" name="rating" value="2" />
+                                        <label for="stranger-star2"></label>
+                                        <input type="radio" id="stranger-star1" name="rating" value="1" />
+                                        <label for="stranger-star1"></label>
+                                    </form>
+                                    <span class="votes">64,159 votes</span>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </article>
+                </section>
+                <section class="pop-videos">
+                    <a href="#" class="pop-videos-link sprites">Most Popular Videos</a>
+                    <article class="clearfix">
+                        <figure>
+                            <img src="img/pop-videos-one.jpg" width="214" height="100" alt="Most Rare Birds Ever">
+                            <figcaption>
+                                <div class="article-title">
+                                    <h6><a href="#" class="pop-videos-play">Most Rare Birds Ever</a></h6>
+                                    <span>211,482 views</span>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </article>
+                    <article class="clearfix">
+                        <figure>
+                            <img src="img/pop-videos-two.jpg" width="214" height="100" alt="Mandarin Dragonet">
+                            <figcaption>
+                                <div class="article-title">
+                                    <h6><a href="#" class="pop-videos-play">Mandarin Dragonet</a></h6>
+                                    <span>192,029 views</span>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </article>
+                </section>
+                <section class="upcoming-events">
+                    <div class="upcoming-events-header sprites">
+                        <a href="#">Upcoming Events</a>
+                        <a href="#" class="prev sprites"></a>
+                        <a href="#" class="next sprites"></a>
+                    </div>
+                    <article class="clearfix">
+                        <h5>NatGeo Live Student Matinees</h5>
+                        <figure>
+                            <img src="img/upcoming-events.jpg" width="213" height="58" alt="NatGeo Live Student Matinees">
+                            <figcaption>
+                                <span class="date sprites">April 17, 2013</span>
+                                <p class="description">Live Student Matinees offer students in USA and Canada entertaining and visually spectacular presentations by leading explorers</p>
+                            </figcaption>
+                        </figure>
+                    </article>
+                    <a href="#" class="shopping sprites">shopping</a>
+                    <a href="#" class="subscriptions sprites">subscriptions</a>
+                </section>
+            </aside>
+        </div>
+        <!-- Magazines -->
+        <section class="magazines">
+            <div class="magazines-header sprites clearfix">
+                <a href="#">National Geographic Magazines</a>
+                <a href="#" class="prev sprites"></a>
+                <a href="#" class="next sprites"></a>
+            </div>
+            <article class="mag-article clearfix">
+                <div class="mag-article-img-wrapp">
+                    <img src="img/nat-mag-1.jpg" alt="National Geographic Magazine" width="69" height="100">
+                    <a href="#">National Geographic Magazine</a>
+                </div>
+                <div class="rating-wrapper block-left clearfix">
+                    <form action="#" class="rating">
+                        <input type="radio" id="nat-mag-star5" name="rating" value="5" />
+                        <label for="nat-mag-star5"></label>
+                        <input type="radio" id="nat-mag-star4" name="rating" value="4" />
+                        <label for="nat-mag-star4"></label>
+                        <input type="radio" id="nat-mag-star3" name="rating" value="3" />
+                        <label for="nat-mag-star3"></label>
+                        <input type="radio" id="nat-mag-star2" name="rating" value="2" />
+                        <label for="nat-mag-star2"></label>
+                        <input type="radio" id="nat-mag-star1" name="rating" value="1" />
+                        <label for="nat-mag-star1"></label>
+                    </form>
+                    <span class="votes">7,726 votes</span>
+                </div>
+                <a href="#" class="subscribe sprites">shopping</a>
+            </article>
+            <article class="mag-article clearfix">
+                <div class="mag-article-img-wrapp">
+                    <img src="img/kids-mag.jpg" alt="National Geographic Kids Magazine" width="76" height="100">
+                    <a href="#">National Geographic Kids Magazine</a>
+                </div>
+                <div class="rating-wrapper block-left clearfix">
+                    <form action="#" class="rating">
+                        <input type="radio" id="kids-star5" name="rating" value="5" />
+                        <label for="kids-star5"></label>
+                        <input type="radio" id="kids-star4" name="rating" value="4" />
+                        <label for="kids-star4"></label>
+                        <input type="radio" id="kids-star3" name="rating" value="3" />
+                        <label for="kids-star3"></label>
+                        <input type="radio" id="kids-star2" name="rating" value="2" />
+                        <label for="kids-star2"></label>
+                        <input type="radio" id="kids-star1" name="rating" value="1" />
+                        <label for="kids-star1"></label>
+                    </form>
+                    <span class="votes">5,841 votes</span>
+                </div>
+                <a href="#" class="subscribe sprites">shopping</a>
+            </article>
+            <article class="mag-article clearfix">
+                <div class="mag-article-img-wrapp">
+                    <img src="img/exp-mag.jpg" alt="NG Young Explorer Magazine" width="69" height="100">
+                    <a href="#">NG Young Explorer Magazine</a>
+                </div>
+                <div class="rating-wrapper block-left clearfix">
+                    <form action="#" class="rating">
+                        <input type="radio" id="exp-star5" name="rating" value="5" />
+                        <label for="exp-star5"></label>
+                        <input type="radio" id="exp-star4" name="rating" value="4" />
+                        <label for="exp-star4"></label>
+                        <input type="radio" id="exp-star3" name="rating" value="3" />
+                        <label for="exp-star3"></label>
+                        <input type="radio" id="exp-star2" name="rating" value="2" />
+                        <label for="exp-star2"></label>
+                        <input type="radio" id="exp-star1" name="rating" value="1" />
+                        <label for="exp-star1"></label>
+                    </form>
+                    <span class="votes">6,121 votes</span>
+                </div>
+                <a href="#" class="subscribe sprites">shopping</a>
+            </article>
+            <article class="mag-article clearfix">
+                <div class="mag-article-img-wrapp">
+                    <img src="img/little-mag.jpg" alt="National Geographic Magazine" width="91" height="100">
+                    <a href="#">National Geographic Little</a>
+                </div>
+                <div class="rating-wrapper block-left clearfix">
+                    <form action="#" class="rating">
+                        <input type="radio" id="little-star5" name="rating" value="5" />
+                        <label for="little-star5"></label>
+                        <input type="radio" id="little-star4" name="rating" value="4" />
+                        <label for="little-star4"></label>
+                        <input type="radio" id="little-star3" name="rating" value="3" />
+                        <label for="little-star3"></label>
+                        <input type="radio" id="little-star2" name="rating" value="2" />
+                        <label for="little-star2"></label>
+                        <input type="radio" id="little-star1" name="rating" value="1" />
+                        <label for="little-star1"></label>
+                    </form>
+                    <span class="votes">9,107 votes</span>
+                </div>
+                <a href="#" class="subscribe sprites">shopping</a>
+            </article>
+        </section>
+    </div>
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-wrapper clearfix">
+            <div class="email-field">
+                <form action="#">
+                    <input type="email" placeholder="type your email">
+                    <input type="submit" value="SUBSCRIBE">
+                </form>
+            </div>
+            <div class="social-block">
+                <a href="#" class="fbook sprites"></a>
+                <a href="#" class="twitter sprites"></a>
+                <a href="#" class="ytube sprites"></a>
+            </div>
+            <div class="copyright">
+                <ul>
+                    <li><a href="#">Customer Service</a></li>
+                    <li><a href="#">Advertise With Us</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+                <h6>&copy; 1996-2013 National Geographic Society. All rights reserved</h6>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
